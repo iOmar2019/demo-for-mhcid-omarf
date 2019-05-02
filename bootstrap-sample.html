@@ -7,66 +7,56 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet"> 
-  <style>
-body {
+ <style>
+      body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
+      h1 {
+        margin-top: 1rem;
+        margin-top: 1rem;
+        font-family: 'Sofia', cursive;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
+      .row {
+        margin-bottom: 1rem;
+      }
+      .row .row {
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+   [class*="col-"] {
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-h3 {
-  margin-top: 2rem;
-}
-
-.row {
-  margin-bottom: 1rem;
-}
-.row .row {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-[class*="col-"] {
-  padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid rgba(86,61,124,.2);
-}
-
-hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  background-color: rgb(193,225,247);
+  border: 1px solid rgb(95,134,155);
 }
     </style>
   </head>
   <body>
       <h1>My Bootstrap Grid</h1>
-  <div class="container-fluid">
-      <div class="row center">
-   	<div class="col-1">
-	  <div class="tenor-gif-embed" data-postid="5027512" data-share-method="host" data-width="100%" data-aspect-ratio="1.3174603174603174"><a href="https://tenor.com/view/spongebob-squarepants-dance-happydance-gif-5027512">Dance GIF</a> from <a href="https://tenor.com/search/spongebobsquarepants-gifs">Spongebobsquarepants GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-	</div>
+
+      <div class="row">
+        <div class="col-4">Hello</div>
+        <div class="col-4">You</div>
+        <div class="col-4">There-4</div>
       </div>
-	<div class="col-2">
-            <div class="row">
-              <div class="col-2">Hello</div>
-              <div class="col-2">You</div>
-              <div class="col-2">There</div>
-            </div>
 
-            <div class="row">
-              <div class="col-2">Hello</div>
-              <div class="col-2">You</div>
-              <div class="col-2">There</div>
-            </div>
+      <div class="row">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+      </div>
 
-            <div class="row">
-              <div class="col-2">Hello</div>
-              <div class="col-2">You</div>
-              <div class="col-2">There</div>
-            </div>
-	</div>
-  </div> <!-- /container -->
-		
+      <div class="row">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+    </div> <!-- /container -->
   <div>
   <button type="button" class="btn btn-primary btn-lg">Click Me See What Happens</button>
   </div>
